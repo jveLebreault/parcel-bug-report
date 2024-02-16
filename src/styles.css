@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .something {
+        @apply: after-content-['*'] color-red-600;
+    }
+}
